@@ -17,6 +17,7 @@ import ToastNotifications from './base/dynamic/ToastNotifications.vue';
 import Spinners from './base/dynamic/Spinners.vue';
 import Modals from './base/dynamic/Modals.vue';
 import PopoversTooltips from './base/dynamic/PopoversTooltips.vue';
+import PricingCard from './components/PricingCard.vue';
 </script>
 
 <template>
@@ -30,7 +31,7 @@ import PopoversTooltips from './base/dynamic/PopoversTooltips.vue';
     <router-view />
   </div>
   <HelloWorld msg="Vite + Vue + José" /> -->
-  <PopoversTooltips>Bootstrap Sandbox | Popovers & Tooltips</PopoversTooltips>
+  <PricingCard>Mini Project - Pricing Cards</PricingCard>
   
 
 </template>
