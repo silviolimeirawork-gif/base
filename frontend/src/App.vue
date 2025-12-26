@@ -18,6 +18,7 @@ import Spinners from './base/dynamic/Spinners.vue';
 import Modals from './base/dynamic/Modals.vue';
 import PopoversTooltips from './base/dynamic/PopoversTooltips.vue';
 import PricingCard from './components/PricingCard.vue';
+import Ratings from './components/Ratings.vue';
 </script>
 
 <template>
@@ -31,7 +32,7 @@ import PricingCard from './components/PricingCard.vue';
     <router-view />
   </div>
   <HelloWorld msg="Vite + Vue + José" /> -->
-  <PricingCard>Mini Project - Pricing Cards</PricingCard>
+  <Ratings>Mini Project - Ratings</Ratings>
   
 
 </template>
