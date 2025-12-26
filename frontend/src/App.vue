@@ -16,6 +16,7 @@ import Carousel from './base/dynamic/Carousel.vue';
 import ToastNotifications from './base/dynamic/ToastNotifications.vue';
 import Spinners from './base/dynamic/Spinners.vue';
 import Modals from './base/dynamic/Modals.vue';
+import PopoversTooltips from './base/dynamic/PopoversTooltips.vue';
 </script>
 
 <template>
@@ -29,7 +30,7 @@ import Modals from './base/dynamic/Modals.vue';
     <router-view />
   </div>
   <HelloWorld msg="Vite + Vue + José" /> -->
-  <Modals>Bootstrap Sandbox | Modal</Modals>
+  <PopoversTooltips>Bootstrap Sandbox | Popovers & Tooltips</PopoversTooltips>
   
 
 </template>
